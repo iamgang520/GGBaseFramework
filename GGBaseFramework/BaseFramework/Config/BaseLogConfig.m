@@ -7,5 +7,17 @@
 
 #import "BaseLogConfig.h"
 
-/// 是否打印log信息
-BOOL kIsShowLog = NO;
+@implementation BaseLogConfig
+
+static BOOL kIsShowLog = NO;
++ (BOOL)isShowLog {
+    
+    return kIsShowLog;
+}
+
++ (void)setIsShowLog:(BOOL)isShowLog
+{
+    kIsShowLog = isShowLog;
+}
+
+@end

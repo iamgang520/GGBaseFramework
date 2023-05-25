@@ -9,9 +9,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-// 常量 ===
+@interface BaseConstant : NSObject
 
-/// 设置SDK版本号：用于公共服务网络请求上传
-extern NSString *kSDKVersion;
+/// 获取SDK版本号：用于公共服务网络请求上传
++ (NSString *)SDKVersion;
+
+@end
 
 NS_ASSUME_NONNULL_END

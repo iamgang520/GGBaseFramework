@@ -17,7 +17,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    kIsShowLog = YES;
+    BaseLogConfig.isShowLog = YES;
     return YES;
 }
 

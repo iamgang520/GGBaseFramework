@@ -66,8 +66,8 @@
 {
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
     [dic setObject:@"ios" forKey:@"Xh-Os"];
-    if (kSDKVersion && kSDKVersion.length) {
-        [dic setObject:kSDKVersion forKey:@"Xh-Sdk-Version"];
+    if (BaseConstant.SDKVersion && BaseConstant.SDKVersion.length) {
+        [dic setObject:BaseConstant.SDKVersion forKey:@"Xh-Sdk-Version"];
     }
     return dic;
 }
