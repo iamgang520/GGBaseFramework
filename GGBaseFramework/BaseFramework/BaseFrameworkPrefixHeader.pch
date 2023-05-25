@@ -19,20 +19,28 @@
 #if __has_include("NSObject+GGLog.h")
 #import "NSObject+GGLog.h"
 #endif
-#if __has_include(<Masonry/Masonry.h>) || __has_include("Masonry.h")
+#if __has_include(<Masonry/Masonry.h>)
 #import <Masonry/Masonry.h>
+#elif __has_include("Masonry.h")
+#import "Masonry.h"
 #endif
 #if __has_include("GANGAlertView.h")
 #import "GANGAlertView.h"
 #endif
-#if __has_include(<JKCategories/JKCategories.h>) || __has_include("JKCategories.h")
+#if __has_include(<JKCategories/JKCategories.h>)
 #import <JKCategories/JKCategories.h>
+#elif __has_include("JKCategories.h")
+#import "JKCategories.h"
 #endif
-#if __has_include(<MJExtension/MJExtension.h>) || __has_include("MJExtension.h")
+#if __has_include(<MJExtension/MJExtension.h>)
 #import <MJExtension/MJExtension.h>
+#elif __has_include("MJExtension.h")
+#import "MJExtension.h"
 #endif
-#if __has_include(<SDWebImage/SDWebImage.h>) || __has_include("SDWebImage.h")
+#if __has_include(<SDWebImage/SDWebImage.h>)
 #import <SDWebImage/SDWebImage.h>
+#elif __has_include("SDWebImage.h")
+#import "SDWebImage.h"
 #endif
 #if __has_include("GGTools.h")
 #import "GGTools.h"
