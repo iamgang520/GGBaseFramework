@@ -6,7 +6,6 @@
 //
 
 #import "HttpManager.h"
-#import <JKCategories/JKCategories.h>
 
 @interface HttpManager ()
 

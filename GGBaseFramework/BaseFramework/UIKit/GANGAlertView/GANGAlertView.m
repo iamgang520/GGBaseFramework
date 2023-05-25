@@ -7,8 +7,6 @@
 //
 
 #import "GANGAlertView.h"
-#import <JKCategories/UIButton+JKBlock.h>
-#import <Masonry/Masonry.h>
 
 #define GANGAlertViewThemeColor  ([UIColor systemBlueColor])
 

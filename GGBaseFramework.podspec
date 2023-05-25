@@ -9,12 +9,12 @@
 Pod::Spec.new do |s|
   s.name             = 'GGBaseFramework'
 
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
 
   s.summary          = '我的基础库'
 
   s.description      = <<-DESC
-	基础库
+	我的基础库-主要是UI库
                        DESC
 
   s.homepage         = 'http://www.iamgang.com'
